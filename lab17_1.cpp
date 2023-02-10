@@ -70,6 +70,6 @@ void findColSum(const double *a,double *b,int N ,int M)
         {
             if(i>0) b[i]+=a[x+i];
             else b[i]+=a[x];
-        }
+        }    
     }    
 }
